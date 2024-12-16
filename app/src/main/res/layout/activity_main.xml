@@ -1,0 +1,60 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1c40f"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="#e84118"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e84118"
+        android:text="username"
+        android:textSize="30dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/usnm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter username"
+        android:textColorHint="#E81830"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:textSize="30dp"
+        android:textColor="#e84118"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/pas"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:textColorHint="#FF0000"
+        android:inputType="textPassword"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/logbut"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2ecc71"/>
+
+</LinearLayout>
